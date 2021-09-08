@@ -1,14 +1,14 @@
 %% Load Experiments/Setup
 clear
 close all
+clc
 
-
-addpath(genpath('100spikesAnalysis'))
+addpath(genpath('/Users/agos/Dropbox/ColumbiaProjects/Data_IanOldenburg/100spikesAnalysis'))
 %% loadLists
 
 oriLoadList;
 
-loadPath = 'path/to/outfiles/directory';
+loadPath = '/Users/agos/Dropbox/ColumbiaProjects/Data_IanOldenburg/OutfilesData/';
 
 addpath(genpath(loadPath))
 
